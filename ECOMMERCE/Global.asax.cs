@@ -12,6 +12,7 @@ namespace ECOMMERCE
     {
         protected void Application_Start()
         {
+            // System.Data.Entity.Database.SetInitializer(new ECOMMERCE.Models.Da  
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

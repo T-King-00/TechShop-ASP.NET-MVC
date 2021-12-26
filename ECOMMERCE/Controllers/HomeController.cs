@@ -8,6 +8,20 @@ namespace ECOMMERCE.Controllers
 {
     public class HomeController : Controller
     {
+
+        public ActionResult ShopNow()
+        {
+
+
+            return View("ShopNow");  
+        }
+
+
+
+
+
+
+        //   Not used 
         public ActionResult Index()
         {
             return View();
@@ -19,7 +33,6 @@ namespace ECOMMERCE.Controllers
 
             return View();
         }
-
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
