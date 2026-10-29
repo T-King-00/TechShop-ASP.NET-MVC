@@ -2,7 +2,6 @@
 
 An e-commerce web application built with **C#**, **ASP.NET MVC 5**, **Entity Framework 6**, and **SQL Server**. The application combines a responsive electronics-store storefront with database-backed product management and ASP.NET Identity account functionality.
 
-> **Project status:** Prototype (2021). Product CRUD operations are implemented, while the customer-facing catalog uses sample content. Shopping cart, checkout, and payments are **not** implemented.
 
 ## Overview
 
